@@ -303,5 +303,114 @@
             "prep_time": "15 minutes",
             "serving_style": "appetizer"
         }
+    },
+    {
+        "name": "Guacamole Madness",
+        "ingredients": [
+            {"item": "ripe avocados", "amount": "3", "unit": "whole"},
+            {"item": "minced garlic", "amount": "3", "unit": "cloves"},
+            {"item": "medium onion", "amount": "1", "unit": "whole"},
+            {"item": "fresh lime, squeezed", "amount": "1", "unit": "whole"},
+            {"item": "jalapeño, chopped", "amount": "1", "unit": "whole"},
+            {"item": "Roma tomatoes, coarsely chopped", "amount": "3", "unit": "whole"},
+            {"item": "salt and pepper", "amount": "to taste", "unit": ""}
+        ],
+        "instructions": [
+            "Pit and scoop flesh from avocados",
+            "Mash with fork into small chunks",
+            "Add garlic, onion, jalapeño and tomato",
+            "Mix well and season with salt, pepper and lime juice to taste",
+            "Chill and serve"
+        ],
+        "prep_info": {
+            "prep_time": "15 minutes",
+            "chill_time": "varies",
+            "serving_style": "appetizer/dip",
+            "tip": "If making ahead, save the avocado pits and place in bowl with guacamole to keep from browning"
+        }
+    },
+    {
+        "name": "Pumpkin Bread",
+        "ingredients": [
+            {"item": "sugar", "amount": "2 2/3", "unit": "cups"},
+            {"item": "Crisco", "amount": "2/3", "unit": "cup"},
+            {"item": "pumpkin", "amount": "16", "unit": "oz can"},
+            {"item": "water", "amount": "2/3", "unit": "cup"},
+            {"item": "eggs", "amount": "4", "unit": "whole"},
+            {"item": "flour", "amount": "3 1/3", "unit": "cups"},
+            {"item": "baking soda", "amount": "2", "unit": "tsp"},
+            {"item": "salt", "amount": "1 1/2", "unit": "tsp"},
+            {"item": "cloves", "amount": "1", "unit": "tsp"},
+            {"item": "cinnamon", "amount": "1", "unit": "tsp"},
+            {"item": "baking powder", "amount": "1/2", "unit": "tsp"},
+            {"item": "chopped nuts", "amount": "2/3", "unit": "cup"}
+        ],
+        "instructions": [
+            "Heat oven to 350 degrees",
+            "Grease bottoms only of 2 loaf pans",
+            "Mix sugar and shortening",
+            "Mix in flour, baking soda, salt, cinnamon, cloves and baking powder",
+            "Stir in nuts",
+            "Bake until wooden pick inserted in center comes out clean, 60-70 minutes",
+            "Cool completely before slicing"
+        ],
+        "prep_info": {
+            "oven_temperature": "350°F",
+            "bake_time": "60-70 minutes",
+            "cooling_time": "cool completely",
+            "pan_type": "2 loaf pans",
+            "yield": "2 loaves"
+        }
+    },
+    {
+        "name": "Sour Cream Cornbread Muffins",
+        "ingredients": [
+            {"item": "Land o Lakes soft baking butter with canola oil", "amount": "1/4", "unit": "cup"},
+            {"item": "sugar", "amount": "3", "unit": "TBLS"},
+            {"item": "eggs", "amount": "2", "unit": "whole"},
+            {"item": "sour cream", "amount": "1/2", "unit": "cup"},
+            {"item": "milk", "amount": "1/2", "unit": "cup"},
+            {"item": "flour", "amount": "1", "unit": "cup"},
+            {"item": "yellow corn meal", "amount": "2/3", "unit": "cup"},
+            {"item": "baking powder", "amount": "1 1/2", "unit": "tsp"},
+            {"item": "salt", "amount": "1/2", "unit": "tsp"},
+            {"item": "baking soda", "amount": "1/4", "unit": "tsp"}
+        ],
+        "instructions": [
+            "Heat oven to 425 degrees",
+            "Combine butter and sugar; beat at medium speed until creamy, scraping bowl as needed",
+            "Add eggs, one at a time. Beat well after each",
+            "Stir in sour cream and milk",
+            "Reduce speed to low and add all remaining ingredients",
+            "Beat until just mixed",
+            "Spoon batter into paper lined muffin cups",
+            "Bake 15-18 minutes"
+        ],
+        "prep_info": {
+            "oven_temperature": "425°F",
+            "bake_time": "15-18 minutes (muffins) or 18-22 minutes (8x8 pan)",
+            "pan_type": "paper lined muffin cups or greased 8x8 pan",
+            "alternative_baking": "Can be baked in greased 8x8 pan, 18-22 minutes"
+        }
+    },
+    {
+        "name": "Dried Beef Dip",
+        "ingredients": [
+            {"item": "cream cheese, softened", "amount": "2", "unit": "8 ounce packages"},
+            {"item": "minced onion", "amount": "2", "unit": "TBLS"},
+            {"item": "mayonnaise", "amount": "1", "unit": "TBLS"},
+            {"item": "dried beef", "amount": "1", "unit": "jar"}
+        ],
+        "instructions": [
+            "Rinse the beef in cold water and blot dry",
+            "Chop beef",
+            "Mix all the ingredients and place in a bowl",
+            "Serve with crackers"
+        ],
+        "prep_info": {
+            "prep_time": "10 minutes",
+            "serving_style": "appetizer/dip",
+            "serve_with": "crackers"
+        }
     }
   ]
