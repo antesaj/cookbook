@@ -1,416 +1,587 @@
 [
-    {
-      "name": "Apple Bread",
-      "ingredients": [
-        {"item": "shortening", "amount": "1/2", "unit": "cup"},
-        {"item": "sugar", "amount": "1", "unit": "cup"},
-        {"item": "egg", "amount": "1", "unit": "whole"},
-        {"item": "milk", "amount": "2", "unit": "TBLS"},
-        {"item": "shredded apple", "amount": "1 1/2", "unit": "cups"},
-        {"item": "flour", "amount": "2", "unit": "cups"},
-        {"item": "baking soda", "amount": "1", "unit": "tsp"},
-        {"item": "chopped nuts", "amount": "1/2", "unit": "cup"}
-      ],
-      "topping": [
-        {"item": "sugar", "amount": "2", "unit": "tsp"},
-        {"item": "cinnamon", "amount": "1/2", "unit": "tsp"}
-      ],
-      "instructions": [
-        "Heat oven to 350°F",
-        "Spray bottom only of loaf pan with cooking spray",
-        "Mix sugar and shortening",
-        "Add egg and milk mixed with baking soda",
-        "Add flour and salt",
-        "Mix in apples and nuts",
-        "Pour into pan",
-        "Sprinkle with topping",
-        "Bake 60 minutes or until toothpick comes out clean",
-        "Cool 5 minutes, remove from pan"
-      ],
-      "prep_info": {
-        "oven_temperature": "350°F",
-        "bake_time": "60 minutes",
-        "cooling_time": "5 minutes",
-        "pan_type": "loaf pan"
-      }
-    },
-    {
-      "name": "Spinach-filled Bread Round",
-      "ingredients": [
-        {"item": "loaf round bread", "amount": "16", "unit": "oz"},
-        {"item": "frozen spinach, cooked and drained", "amount": "10", "unit": "oz package"},
-        {"item": "cream cheese, softened", "amount": "16", "unit": "oz"},
-        {"item": "water chestnuts, finely chopped", "amount": "8", "unit": "oz"},
-        {"item": "onion, chopped", "amount": "1", "unit": "medium"},
-        {"item": "knorr vegetable soup mix", "amount": "1", "unit": "package"}
-      ],
-      "instructions": [
-        "Cut 2-inch slice off the top of the bread",
-        "Remove bread from inside of loaf, leaving a 1½ inch crust",
-        "Cut bread in cubes and reserve for dipping",
-        "Combine remaining ingredients",
-        "Chill until ready to serve",
-        "Spoon mixture inside bread round"
-      ],
-      "prep_info": {
-        "prep_time": "varies",
-        "chill_time": "varies",
-        "serving_style": "appetizer/dip"
-      }
-    },
-    {
-      "name": "Layered Taco Dip",
-      "ingredients": [
-        {"item": "Frito Lay bean dip", "amount": "2", "unit": "cans"},
-        {"item": "light sour cream", "amount": "16", "unit": "oz"},
-        {"item": "taco seasoning mix", "amount": "1", "unit": "package"},
-        {"item": "shredded cheddar cheese", "amount": "2", "unit": "cups"},
-        {"item": "medium tomatoes, chopped", "amount": "2", "unit": "whole"},
-        {"item": "green onions, chopped", "amount": "2", "unit": "bunches"}
-      ],
-      "instructions": [
-        "Spread bean dip evenly in 13x9 glass dish",
-        "Combine taco seasoning and sour cream",
-        "Spread sour cream mixture over bean dip",
-        "Sprinkle with cheese, tomato and onion",
-        "Serve with tortilla chips"
-      ],
-      "prep_info": {
-        "prep_time": "15 minutes",
-        "dish_size": "13x9 glass dish",
-        "serving_style": "appetizer/dip",
-        "serve_with": "tortilla chips"
-      }
-    },
-    {
-      "name": "Stuffed Jalapeños",
-      "ingredients": [
-        {"item": "medium jalapeños, long cut and deseeded", "amount": "15", "unit": "approximately"},
-        {"item": "Bob Evans sage sausage, cooked and drained", "amount": "1", "unit": "lb"},
-        {"item": "cream cheese", "amount": "8", "unit": "oz"},
-        {"item": "parmesan cheese", "amount": "1/4", "unit": "cup"},
-        {"item": "oregano", "amount": "2", "unit": "TBLS"},
-        {"item": "garlic powder", "amount": "1", "unit": "TBLS"}
-      ],
-      "topping": [
-        {"item": "parmesan cheese", "amount": "as needed", "unit": "for sprinkling"}
-      ],
-      "instructions": [
-        "Mix sausage, cream cheese, oregano, and garlic powder",
-        "Stuff peppers with mixture",
-        "Sprinkle parmesan cheese on top",
-        "Cook at 400 degrees approximately 25 minutes until golden brown but slightly firm"
-      ],
-      "prep_info": {
-        "oven_temperature": "400°F",
-        "bake_time": "25 minutes",
-        "doneness": "golden brown but slightly firm"
-      }
-    },
-    {
-      "name": "Cheese Ball",
-      "ingredients": [
-        {"item": "cream cheese, softened", "amount": "2", "unit": "8oz packages"},
-        {"item": "milk", "amount": "1/4", "unit": "cup"},
-        {"item": "shredded cheddar cheese", "amount": "2", "unit": "cups"},
-        {"item": "onions, minced", "amount": "2", "unit": "tsp"},
-        {"item": "lemon juice", "amount": "2", "unit": "tsp"},
-        {"item": "Worcestershire sauce", "amount": "2", "unit": "tsp"},
-        {"item": "garlic powder", "amount": "1", "unit": "tsp"},
-        {"item": "chopped nuts", "amount": "1", "unit": "cup"}
-      ],
-      "instructions": [
-        "Mix all ingredients, except nuts",
-        "Form into desired shape (ball, egg, football)",
-        "Roll in nuts",
-        "Chill until ready to serve",
-        "Serve with your favorite crackers"
-      ],
-      "prep_info": {
-        "prep_time": "15 minutes",
-        "chill_time": "varies",
-        "serving_style": "appetizer",
-        "serve_with": "crackers"
-      }
-    },
-    {
-      "name": "Blueberry-Lemon Muffins",
-      "ingredients": [
-        {"item": "flour", "amount": "1 3/4", "unit": "cups"},
-        {"item": "sugar", "amount": "1/2 cup plus 2", "unit": "TBLS"},
-        {"item": "baking powder", "amount": "2 1/2", "unit": "tsp"},
-        {"item": "salt", "amount": "3/4", "unit": "tsp"},
-        {"item": "egg, beaten", "amount": "1", "unit": "whole"},
-        {"item": "milk", "amount": "3/4", "unit": "cup"},
-        {"item": "canola oil", "amount": "1/3", "unit": "cup"},
-        {"item": "fresh blueberries", "amount": "1", "unit": "cup"},
-        {"item": "grated lemon peel", "amount": "1", "unit": "tsp"}
-      ],
-      "topping": [
-        {"item": "melted butter", "amount": "as needed", "unit": "for dipping"},
-        {"item": "sugar", "amount": "as needed", "unit": "for dipping"}
-      ],
-      "instructions": [
-        "Stir together flour, sugar, baking powder and salt",
-        "Make a well in center",
-        "Combine egg, milk and oil",
-        "Add all at once to dry ingredients, stirring just until moistened",
-        "Fold in blueberries and lemon peel",
-        "Fill greased or paper baking cup-lined muffin pans two-thirds full",
-        "Bake at 375 degrees for 18 to 20 minutes",
-        "Dip tops, while warm, in melted butter, then in sugar"
-      ],
-      "prep_info": {
-        "oven_temperature": "375°F",
-        "bake_time": "18 to 20 minutes",
-        "yield": "12 muffins",
-        "pan_type": "muffin pans",
-        "note": "If using frozen blueberries, thaw and drain before adding to mixture"
-      }
-    },
-    {
-      "name": "Salsa",
-      "ingredients": [
-        {"item": "crushed tomatoes", "amount": "1", "unit": "28 ounce can"},
-        {"item": "garlic cloves", "amount": "5-6", "unit": "whole"},
-        {"item": "green pepper, chopped", "amount": "1/2", "unit": "cup"},
-        {"item": "green onion, chopped", "amount": "1/2", "unit": "cup"},
-        {"item": "red onion, chopped", "amount": "1/2", "unit": "cup"},
-        {"item": "chopped fresh cilantro", "amount": "to taste", "unit": ""},
-        {"item": "chopped jalapeña peppers", "amount": "to taste", "unit": ""},
-        {"item": "salt", "amount": "to taste", "unit": ""}
-      ],
-      "instructions": [
-        "Mix all ingredients together",
-        "Serve with tortilla chips"
-      ],
-      "prep_info": {
-        "prep_time": "10 minutes",
-        "serving_style": "appetizer/dip",
-        "serve_with": "tortilla chips"
-      }
-    },
-    {
-      "name": "Veggie Pizza",
-      "ingredients": [
-        {"item": "refrigerated crescent rolls", "amount": "2", "unit": "8 oz cans"},
-        {"item": "cream cheese", "amount": "2", "unit": "8 oz packages"},
-        {"item": "Hidden Valley Ranch Powder", "amount": "1", "unit": "envelope"},
-        {"item": "mayonnaise", "amount": "1", "unit": "cup"},
-        {"item": "finely chopped broccoli florets", "amount": "to taste", "unit": ""},
-        {"item": "sliced red & green bell peppers", "amount": "to taste", "unit": ""},
-        {"item": "sliced carrots", "amount": "to taste", "unit": ""},
-        {"item": "additional vegetables of choice", "amount": "to taste", "unit": ""}
-      ],
-      "instructions": [
-        "Spread crescent rolls flat in 13x9 greased pan",
-        "Cook as directed on package",
-        "Cool completely",
-        "Mix cream cheese, ranch powder, and mayonnaise",
-        "Spread cream cheese mixture onto cooled crust",
-        "Sprinkle chopped veggies on top",
-        "Cut into squares"
-      ],
-      "prep_info": {
-        "pan_size": "13x9 greased pan",
-        "yield": "18-24 servings",
-        "serving_style": "appetizer",
-        "note": "Additions of your choice of veggies are expected"
-      }
-    },
-    {
-        "name": "Whiskey Peppercorn Sauce",
-        "ingredients": [
-            {"item": "water", "amount": "2", "unit": "cups"},
-            {"item": "beef bouillon cubes", "amount": "3", "unit": "whole"},
-            {"item": "chicken bouillon cubes", "amount": "3", "unit": "whole"},
-            {"item": "butter", "amount": "2", "unit": "TBLS"},
-            {"item": "shallots, diced", "amount": "1/4", "unit": "cup"},
-            {"item": "garlic cloves, diced", "amount": "2", "unit": "whole"},
-            {"item": "Jack Daniels Whiskey", "amount": "1/4", "unit": "cup"},
-            {"item": "heavy whipping cream", "amount": "1 1/2", "unit": "cups"},
-            {"item": "lemon juice", "amount": "1/4", "unit": "cup"},
-            {"item": "corn starch", "amount": "1/4", "unit": "cup"},
-            {"item": "whole green peppercorns", "amount": "1/4", "unit": "cup"},
-            {"item": "cracked black peppercorns", "amount": "1 1/2", "unit": "TBLS"}
-        ],
-        "instructions": [
-            "In a small saucepan mix water, beef and chicken bouillon cubes",
-            "In a separate saucepan, sauté shallots and garlic in butter for approximately 1 minute",
-            "Add Jack Daniels Whiskey",
-            "Add the beef and chicken bouillon mixture",
-            "Add heavy whipping cream",
-            "Allow to warm",
-            "Mix the lemon juice and corn starch together and add to mixture",
-            "Add green and black peppercorns",
-            "If the sauce is not as thick as you would like, mix cornstarch and water together and add to mixture a little at a time"
-        ],
-        "prep_info": {
-            "cooking_method": "stovetop",
-            "serves_with": "beef, pork and chicken",
-            "note": "Great on beef, pork and chicken"
-        }
-    },
-    {
-        "name": "Pizza Crust",
-        "ingredients": [
-            {"item": "dry active yeast", "amount": "1", "unit": "package"},
-            {"item": "hot water (105-115 degrees)", "amount": "1", "unit": "cup"},
-            {"item": "salt", "amount": "1", "unit": "tsp"},
-            {"item": "sugar", "amount": "1", "unit": "tsp"},
-            {"item": "canola oil", "amount": "2", "unit": "TBLS"},
-            {"item": "flour", "amount": "2 1/2", "unit": "cups"}
-        ],
-        "instructions": [
-            "Mix yeast, salt, sugar and hot water",
-            "Add oil",
-            "Stir in flour",
-            "Cover and let stand for about 20 minutes",
-            "Grease hands and spread pizza crust on greased pizza pan",
-            "Top with sauce and desired toppings",
-            "Bake at 425 degrees for 20-25 minutes"
-        ],
-        "prep_info": {
-            "oven_temperature": "425°F",
-            "bake_time": "20-25 minutes",
-            "rising_time": "20 minutes",
-            "pan_type": "greased pizza pan"
-        }
-    },
-    {
-        "name": "Sausage Stuffed Mushrooms",
-        "ingredients": [
-            {"item": "pork sausage", "amount": "8", "unit": "oz"},
-            {"item": "butter", "amount": "1", "unit": "TBLS"},
-            {"item": "minced garlic", "amount": "2", "unit": "cloves"},
-            {"item": "grated parmesan cheese", "amount": "1/2", "unit": "cup"},
-            {"item": "large mushrooms", "amount": "32", "unit": "whole"},
-            {"item": "seasoned dry bread crumbs", "amount": "1/2", "unit": "cup"},
-            {"item": "fresh parsley", "amount": "1/4", "unit": "cup"},
-            {"item": "salt & pepper", "amount": "to taste", "unit": ""}
-        ],
-        "instructions": [
-            "Remove stems from mushrooms and chop",
-            "Sauté chopped stems in skillet with butter until wilted (about 3 minutes)",
-            "Add sausage and cook until brown",
-            "Stir in remaining ingredients and mix well",
-            "Stuff mushroom caps with mixture",
-            "Bake at 400-450 degrees for about 5 minutes"
-        ],
-        "prep_info": {
-            "oven_temperature": "400-450°F",
-            "bake_time": "5 minutes",
-            "prep_time": "15 minutes",
-            "serving_style": "appetizer"
-        }
-    },
-    {
-        "name": "Guacamole Madness",
-        "ingredients": [
-            {"item": "ripe avocados", "amount": "3", "unit": "whole"},
-            {"item": "minced garlic", "amount": "3", "unit": "cloves"},
-            {"item": "medium onion", "amount": "1", "unit": "whole"},
-            {"item": "fresh lime, squeezed", "amount": "1", "unit": "whole"},
-            {"item": "jalapeño, chopped", "amount": "1", "unit": "whole"},
-            {"item": "Roma tomatoes, coarsely chopped", "amount": "3", "unit": "whole"},
-            {"item": "salt and pepper", "amount": "to taste", "unit": ""}
-        ],
-        "instructions": [
-            "Pit and scoop flesh from avocados",
-            "Mash with fork into small chunks",
-            "Add garlic, onion, jalapeño and tomato",
-            "Mix well and season with salt, pepper and lime juice to taste",
-            "Chill and serve"
-        ],
-        "prep_info": {
-            "prep_time": "15 minutes",
-            "chill_time": "varies",
-            "serving_style": "appetizer/dip",
-            "tip": "If making ahead, save the avocado pits and place in bowl with guacamole to keep from browning"
-        }
-    },
-    {
-        "name": "Pumpkin Bread",
-        "ingredients": [
-            {"item": "sugar", "amount": "2 2/3", "unit": "cups"},
-            {"item": "Crisco", "amount": "2/3", "unit": "cup"},
-            {"item": "pumpkin", "amount": "16", "unit": "oz can"},
-            {"item": "water", "amount": "2/3", "unit": "cup"},
-            {"item": "eggs", "amount": "4", "unit": "whole"},
-            {"item": "flour", "amount": "3 1/3", "unit": "cups"},
-            {"item": "baking soda", "amount": "2", "unit": "tsp"},
-            {"item": "salt", "amount": "1 1/2", "unit": "tsp"},
-            {"item": "cloves", "amount": "1", "unit": "tsp"},
-            {"item": "cinnamon", "amount": "1", "unit": "tsp"},
-            {"item": "baking powder", "amount": "1/2", "unit": "tsp"},
-            {"item": "chopped nuts", "amount": "2/3", "unit": "cup"}
-        ],
-        "instructions": [
-            "Heat oven to 350 degrees",
-            "Grease bottoms only of 2 loaf pans",
-            "Mix sugar and shortening",
-            "Mix in flour, baking soda, salt, cinnamon, cloves and baking powder",
-            "Stir in nuts",
-            "Bake until wooden pick inserted in center comes out clean, 60-70 minutes",
-            "Cool completely before slicing"
-        ],
-        "prep_info": {
-            "oven_temperature": "350°F",
-            "bake_time": "60-70 minutes",
-            "cooling_time": "cool completely",
-            "pan_type": "2 loaf pans",
-            "yield": "2 loaves"
-        }
-    },
-    {
-        "name": "Sour Cream Cornbread Muffins",
-        "ingredients": [
-            {"item": "Land o Lakes soft baking butter with canola oil", "amount": "1/4", "unit": "cup"},
-            {"item": "sugar", "amount": "3", "unit": "TBLS"},
-            {"item": "eggs", "amount": "2", "unit": "whole"},
-            {"item": "sour cream", "amount": "1/2", "unit": "cup"},
-            {"item": "milk", "amount": "1/2", "unit": "cup"},
-            {"item": "flour", "amount": "1", "unit": "cup"},
-            {"item": "yellow corn meal", "amount": "2/3", "unit": "cup"},
-            {"item": "baking powder", "amount": "1 1/2", "unit": "tsp"},
-            {"item": "salt", "amount": "1/2", "unit": "tsp"},
-            {"item": "baking soda", "amount": "1/4", "unit": "tsp"}
-        ],
-        "instructions": [
-            "Heat oven to 425 degrees",
-            "Combine butter and sugar; beat at medium speed until creamy, scraping bowl as needed",
-            "Add eggs, one at a time. Beat well after each",
-            "Stir in sour cream and milk",
-            "Reduce speed to low and add all remaining ingredients",
-            "Beat until just mixed",
-            "Spoon batter into paper lined muffin cups",
-            "Bake 15-18 minutes"
-        ],
-        "prep_info": {
-            "oven_temperature": "425°F",
-            "bake_time": "15-18 minutes (muffins) or 18-22 minutes (8x8 pan)",
-            "pan_type": "paper lined muffin cups or greased 8x8 pan",
-            "alternative_baking": "Can be baked in greased 8x8 pan, 18-22 minutes"
-        }
-    },
-    {
-        "name": "Dried Beef Dip",
-        "ingredients": [
-            {"item": "cream cheese, softened", "amount": "2", "unit": "8 ounce packages"},
-            {"item": "minced onion", "amount": "2", "unit": "TBLS"},
-            {"item": "mayonnaise", "amount": "1", "unit": "TBLS"},
-            {"item": "dried beef", "amount": "1", "unit": "jar"}
-        ],
-        "instructions": [
-            "Rinse the beef in cold water and blot dry",
-            "Chop beef",
-            "Mix all the ingredients and place in a bowl",
-            "Serve with crackers"
-        ],
-        "prep_info": {
-            "prep_time": "10 minutes",
-            "serving_style": "appetizer/dip",
-            "serve_with": "crackers"
-        }
+  {
+    "name": "Apple Bread",
+    "ingredients": [
+      { "item": "shortening", "amount": "1/2", "unit": "cup" },
+      { "item": "sugar", "amount": "1", "unit": "cup" },
+      { "item": "egg", "amount": "1", "unit": "whole" },
+      { "item": "milk", "amount": "2", "unit": "TBLS" },
+      { "item": "shredded apple", "amount": "1 1/2", "unit": "cups" },
+      { "item": "flour", "amount": "2", "unit": "cups" },
+      { "item": "baking soda", "amount": "1", "unit": "tsp" },
+      { "item": "chopped nuts", "amount": "1/2", "unit": "cup" }
+    ],
+    "topping": [
+      { "item": "sugar", "amount": "2", "unit": "tsp" },
+      { "item": "cinnamon", "amount": "1/2", "unit": "tsp" }
+    ],
+    "instructions": [
+      "Heat oven to 350°F",
+      "Spray bottom only of loaf pan with cooking spray",
+      "Mix sugar and shortening",
+      "Add egg and milk mixed with baking soda",
+      "Add flour and salt",
+      "Mix in apples and nuts",
+      "Pour into pan",
+      "Sprinkle with topping",
+      "Bake 60 minutes or until toothpick comes out clean",
+      "Cool 5 minutes, remove from pan"
+    ],
+    "prep_info": {
+      "oven_temperature": "350°F",
+      "bake_time": "60 minutes",
+      "cooling_time": "5 minutes",
+      "pan_type": "loaf pan"
     }
-  ]
+  },
+  {
+    "name": "Spinach-filled Bread Round",
+    "ingredients": [
+      { "item": "loaf round bread", "amount": "16", "unit": "oz" },
+      {
+        "item": "frozen spinach, cooked and drained",
+        "amount": "10",
+        "unit": "oz package"
+      },
+      { "item": "cream cheese, softened", "amount": "16", "unit": "oz" },
+      {
+        "item": "water chestnuts, finely chopped",
+        "amount": "8",
+        "unit": "oz"
+      },
+      { "item": "onion, chopped", "amount": "1", "unit": "medium" },
+      { "item": "knorr vegetable soup mix", "amount": "1", "unit": "package" }
+    ],
+    "instructions": [
+      "Cut 2-inch slice off the top of the bread",
+      "Remove bread from inside of loaf, leaving a 1½ inch crust",
+      "Cut bread in cubes and reserve for dipping",
+      "Combine remaining ingredients",
+      "Chill until ready to serve",
+      "Spoon mixture inside bread round"
+    ],
+    "prep_info": {
+      "prep_time": "varies",
+      "chill_time": "varies",
+      "serving_style": "appetizer/dip"
+    }
+  },
+  {
+    "name": "Layered Taco Dip",
+    "ingredients": [
+      { "item": "Frito Lay bean dip", "amount": "2", "unit": "cans" },
+      { "item": "light sour cream", "amount": "16", "unit": "oz" },
+      { "item": "taco seasoning mix", "amount": "1", "unit": "package" },
+      { "item": "shredded cheddar cheese", "amount": "2", "unit": "cups" },
+      { "item": "medium tomatoes, chopped", "amount": "2", "unit": "whole" },
+      { "item": "green onions, chopped", "amount": "2", "unit": "bunches" }
+    ],
+    "instructions": [
+      "Spread bean dip evenly in 13x9 glass dish",
+      "Combine taco seasoning and sour cream",
+      "Spread sour cream mixture over bean dip",
+      "Sprinkle with cheese, tomato and onion",
+      "Serve with tortilla chips"
+    ],
+    "prep_info": {
+      "prep_time": "15 minutes",
+      "dish_size": "13x9 glass dish",
+      "serving_style": "appetizer/dip",
+      "serve_with": "tortilla chips"
+    }
+  },
+  {
+    "name": "Stuffed Jalapeños",
+    "ingredients": [
+      {
+        "item": "medium jalapeños, long cut and deseeded",
+        "amount": "15",
+        "unit": "approximately"
+      },
+      {
+        "item": "Bob Evans sage sausage, cooked and drained",
+        "amount": "1",
+        "unit": "lb"
+      },
+      { "item": "cream cheese", "amount": "8", "unit": "oz" },
+      { "item": "parmesan cheese", "amount": "1/4", "unit": "cup" },
+      { "item": "oregano", "amount": "2", "unit": "TBLS" },
+      { "item": "garlic powder", "amount": "1", "unit": "TBLS" }
+    ],
+    "topping": [
+      {
+        "item": "parmesan cheese",
+        "amount": "as needed",
+        "unit": "for sprinkling"
+      }
+    ],
+    "instructions": [
+      "Mix sausage, cream cheese, oregano, and garlic powder",
+      "Stuff peppers with mixture",
+      "Sprinkle parmesan cheese on top",
+      "Cook at 400 degrees approximately 25 minutes until golden brown but slightly firm"
+    ],
+    "prep_info": {
+      "oven_temperature": "400°F",
+      "bake_time": "25 minutes",
+      "doneness": "golden brown but slightly firm"
+    }
+  },
+  {
+    "name": "Cheese Ball",
+    "ingredients": [
+      {
+        "item": "cream cheese, softened",
+        "amount": "2",
+        "unit": "8oz packages"
+      },
+      { "item": "milk", "amount": "1/4", "unit": "cup" },
+      { "item": "shredded cheddar cheese", "amount": "2", "unit": "cups" },
+      { "item": "onions, minced", "amount": "2", "unit": "tsp" },
+      { "item": "lemon juice", "amount": "2", "unit": "tsp" },
+      { "item": "Worcestershire sauce", "amount": "2", "unit": "tsp" },
+      { "item": "garlic powder", "amount": "1", "unit": "tsp" },
+      { "item": "chopped nuts", "amount": "1", "unit": "cup" }
+    ],
+    "instructions": [
+      "Mix all ingredients, except nuts",
+      "Form into desired shape (ball, egg, football)",
+      "Roll in nuts",
+      "Chill until ready to serve",
+      "Serve with your favorite crackers"
+    ],
+    "prep_info": {
+      "prep_time": "15 minutes",
+      "chill_time": "varies",
+      "serving_style": "appetizer",
+      "serve_with": "crackers"
+    }
+  },
+  {
+    "name": "Blueberry-Lemon Muffins",
+    "ingredients": [
+      { "item": "flour", "amount": "1 3/4", "unit": "cups" },
+      { "item": "sugar", "amount": "1/2 cup plus 2", "unit": "TBLS" },
+      { "item": "baking powder", "amount": "2 1/2", "unit": "tsp" },
+      { "item": "salt", "amount": "3/4", "unit": "tsp" },
+      { "item": "egg, beaten", "amount": "1", "unit": "whole" },
+      { "item": "milk", "amount": "3/4", "unit": "cup" },
+      { "item": "canola oil", "amount": "1/3", "unit": "cup" },
+      { "item": "fresh blueberries", "amount": "1", "unit": "cup" },
+      { "item": "grated lemon peel", "amount": "1", "unit": "tsp" }
+    ],
+    "topping": [
+      { "item": "melted butter", "amount": "as needed", "unit": "for dipping" },
+      { "item": "sugar", "amount": "as needed", "unit": "for dipping" }
+    ],
+    "instructions": [
+      "Stir together flour, sugar, baking powder and salt",
+      "Make a well in center",
+      "Combine egg, milk and oil",
+      "Add all at once to dry ingredients, stirring just until moistened",
+      "Fold in blueberries and lemon peel",
+      "Fill greased or paper baking cup-lined muffin pans two-thirds full",
+      "Bake at 375 degrees for 18 to 20 minutes",
+      "Dip tops, while warm, in melted butter, then in sugar"
+    ],
+    "prep_info": {
+      "oven_temperature": "375°F",
+      "bake_time": "18 to 20 minutes",
+      "yield": "12 muffins",
+      "pan_type": "muffin pans",
+      "note": "If using frozen blueberries, thaw and drain before adding to mixture"
+    }
+  },
+  {
+    "name": "Salsa",
+    "ingredients": [
+      { "item": "crushed tomatoes", "amount": "1", "unit": "28 ounce can" },
+      { "item": "garlic cloves", "amount": "5-6", "unit": "whole" },
+      { "item": "green pepper, chopped", "amount": "1/2", "unit": "cup" },
+      { "item": "green onion, chopped", "amount": "1/2", "unit": "cup" },
+      { "item": "red onion, chopped", "amount": "1/2", "unit": "cup" },
+      { "item": "chopped fresh cilantro", "amount": "to taste", "unit": "" },
+      { "item": "chopped jalapeña peppers", "amount": "to taste", "unit": "" },
+      { "item": "salt", "amount": "to taste", "unit": "" }
+    ],
+    "instructions": [
+      "Mix all ingredients together",
+      "Serve with tortilla chips"
+    ],
+    "prep_info": {
+      "prep_time": "10 minutes",
+      "serving_style": "appetizer/dip",
+      "serve_with": "tortilla chips"
+    }
+  },
+  {
+    "name": "Veggie Pizza",
+    "ingredients": [
+      {
+        "item": "refrigerated crescent rolls",
+        "amount": "2",
+        "unit": "8 oz cans"
+      },
+      { "item": "cream cheese", "amount": "2", "unit": "8 oz packages" },
+      {
+        "item": "Hidden Valley Ranch Powder",
+        "amount": "1",
+        "unit": "envelope"
+      },
+      { "item": "mayonnaise", "amount": "1", "unit": "cup" },
+      {
+        "item": "finely chopped broccoli florets",
+        "amount": "to taste",
+        "unit": ""
+      },
+      {
+        "item": "sliced red & green bell peppers",
+        "amount": "to taste",
+        "unit": ""
+      },
+      { "item": "sliced carrots", "amount": "to taste", "unit": "" },
+      {
+        "item": "additional vegetables of choice",
+        "amount": "to taste",
+        "unit": ""
+      }
+    ],
+    "instructions": [
+      "Spread crescent rolls flat in 13x9 greased pan",
+      "Cook as directed on package",
+      "Cool completely",
+      "Mix cream cheese, ranch powder, and mayonnaise",
+      "Spread cream cheese mixture onto cooled crust",
+      "Sprinkle chopped veggies on top",
+      "Cut into squares"
+    ],
+    "prep_info": {
+      "pan_size": "13x9 greased pan",
+      "yield": "18-24 servings",
+      "serving_style": "appetizer",
+      "note": "Additions of your choice of veggies are expected"
+    }
+  },
+  {
+    "name": "Whiskey Peppercorn Sauce",
+    "ingredients": [
+      { "item": "water", "amount": "2", "unit": "cups" },
+      { "item": "beef bouillon cubes", "amount": "3", "unit": "whole" },
+      { "item": "chicken bouillon cubes", "amount": "3", "unit": "whole" },
+      { "item": "butter", "amount": "2", "unit": "TBLS" },
+      { "item": "shallots, diced", "amount": "1/4", "unit": "cup" },
+      { "item": "garlic cloves, diced", "amount": "2", "unit": "whole" },
+      { "item": "Jack Daniels Whiskey", "amount": "1/4", "unit": "cup" },
+      { "item": "heavy whipping cream", "amount": "1 1/2", "unit": "cups" },
+      { "item": "lemon juice", "amount": "1/4", "unit": "cup" },
+      { "item": "corn starch", "amount": "1/4", "unit": "cup" },
+      { "item": "whole green peppercorns", "amount": "1/4", "unit": "cup" },
+      { "item": "cracked black peppercorns", "amount": "1 1/2", "unit": "TBLS" }
+    ],
+    "instructions": [
+      "In a small saucepan mix water, beef and chicken bouillon cubes",
+      "In a separate saucepan, sauté shallots and garlic in butter for approximately 1 minute",
+      "Add Jack Daniels Whiskey",
+      "Add the beef and chicken bouillon mixture",
+      "Add heavy whipping cream",
+      "Allow to warm",
+      "Mix the lemon juice and corn starch together and add to mixture",
+      "Add green and black peppercorns",
+      "If the sauce is not as thick as you would like, mix cornstarch and water together and add to mixture a little at a time"
+    ],
+    "prep_info": {
+      "cooking_method": "stovetop",
+      "serves_with": "beef, pork and chicken",
+      "note": "Great on beef, pork and chicken"
+    }
+  },
+  {
+    "name": "Pizza Crust",
+    "ingredients": [
+      { "item": "dry active yeast", "amount": "1", "unit": "package" },
+      { "item": "hot water (105-115 degrees)", "amount": "1", "unit": "cup" },
+      { "item": "salt", "amount": "1", "unit": "tsp" },
+      { "item": "sugar", "amount": "1", "unit": "tsp" },
+      { "item": "canola oil", "amount": "2", "unit": "TBLS" },
+      { "item": "flour", "amount": "2 1/2", "unit": "cups" }
+    ],
+    "instructions": [
+      "Mix yeast, salt, sugar and hot water",
+      "Add oil",
+      "Stir in flour",
+      "Cover and let stand for about 20 minutes",
+      "Grease hands and spread pizza crust on greased pizza pan",
+      "Top with sauce and desired toppings",
+      "Bake at 425 degrees for 20-25 minutes"
+    ],
+    "prep_info": {
+      "oven_temperature": "425°F",
+      "bake_time": "20-25 minutes",
+      "rising_time": "20 minutes",
+      "pan_type": "greased pizza pan"
+    }
+  },
+  {
+    "name": "Sausage Stuffed Mushrooms",
+    "ingredients": [
+      { "item": "pork sausage", "amount": "8", "unit": "oz" },
+      { "item": "butter", "amount": "1", "unit": "TBLS" },
+      { "item": "minced garlic", "amount": "2", "unit": "cloves" },
+      { "item": "grated parmesan cheese", "amount": "1/2", "unit": "cup" },
+      { "item": "large mushrooms", "amount": "32", "unit": "whole" },
+      { "item": "seasoned dry bread crumbs", "amount": "1/2", "unit": "cup" },
+      { "item": "fresh parsley", "amount": "1/4", "unit": "cup" },
+      { "item": "salt & pepper", "amount": "to taste", "unit": "" }
+    ],
+    "instructions": [
+      "Remove stems from mushrooms and chop",
+      "Sauté chopped stems in skillet with butter until wilted (about 3 minutes)",
+      "Add sausage and cook until brown",
+      "Stir in remaining ingredients and mix well",
+      "Stuff mushroom caps with mixture",
+      "Bake at 400-450 degrees for about 5 minutes"
+    ],
+    "prep_info": {
+      "oven_temperature": "400-450°F",
+      "bake_time": "5 minutes",
+      "prep_time": "15 minutes",
+      "serving_style": "appetizer"
+    }
+  },
+  {
+    "name": "Guacamole Madness",
+    "ingredients": [
+      { "item": "ripe avocados", "amount": "3", "unit": "whole" },
+      { "item": "minced garlic", "amount": "3", "unit": "cloves" },
+      { "item": "medium onion", "amount": "1", "unit": "whole" },
+      { "item": "fresh lime, squeezed", "amount": "1", "unit": "whole" },
+      { "item": "jalapeño, chopped", "amount": "1", "unit": "whole" },
+      {
+        "item": "Roma tomatoes, coarsely chopped",
+        "amount": "3",
+        "unit": "whole"
+      },
+      { "item": "salt and pepper", "amount": "to taste", "unit": "" }
+    ],
+    "instructions": [
+      "Pit and scoop flesh from avocados",
+      "Mash with fork into small chunks",
+      "Add garlic, onion, jalapeño and tomato",
+      "Mix well and season with salt, pepper and lime juice to taste",
+      "Chill and serve"
+    ],
+    "prep_info": {
+      "prep_time": "15 minutes",
+      "chill_time": "varies",
+      "serving_style": "appetizer/dip",
+      "tip": "If making ahead, save the avocado pits and place in bowl with guacamole to keep from browning"
+    }
+  },
+  {
+    "name": "Pumpkin Bread",
+    "ingredients": [
+      { "item": "sugar", "amount": "2 2/3", "unit": "cups" },
+      { "item": "Crisco", "amount": "2/3", "unit": "cup" },
+      { "item": "pumpkin", "amount": "16", "unit": "oz can" },
+      { "item": "water", "amount": "2/3", "unit": "cup" },
+      { "item": "eggs", "amount": "4", "unit": "whole" },
+      { "item": "flour", "amount": "3 1/3", "unit": "cups" },
+      { "item": "baking soda", "amount": "2", "unit": "tsp" },
+      { "item": "salt", "amount": "1 1/2", "unit": "tsp" },
+      { "item": "cloves", "amount": "1", "unit": "tsp" },
+      { "item": "cinnamon", "amount": "1", "unit": "tsp" },
+      { "item": "baking powder", "amount": "1/2", "unit": "tsp" },
+      { "item": "chopped nuts", "amount": "2/3", "unit": "cup" }
+    ],
+    "instructions": [
+      "Heat oven to 350 degrees",
+      "Grease bottoms only of 2 loaf pans",
+      "Mix sugar and shortening",
+      "Mix in flour, baking soda, salt, cinnamon, cloves and baking powder",
+      "Stir in nuts",
+      "Bake until wooden pick inserted in center comes out clean, 60-70 minutes",
+      "Cool completely before slicing"
+    ],
+    "prep_info": {
+      "oven_temperature": "350°F",
+      "bake_time": "60-70 minutes",
+      "cooling_time": "cool completely",
+      "pan_type": "2 loaf pans",
+      "yield": "2 loaves"
+    }
+  },
+  {
+    "name": "Sour Cream Cornbread Muffins",
+    "ingredients": [
+      {
+        "item": "Land o Lakes soft baking butter with canola oil",
+        "amount": "1/4",
+        "unit": "cup"
+      },
+      { "item": "sugar", "amount": "3", "unit": "TBLS" },
+      { "item": "eggs", "amount": "2", "unit": "whole" },
+      { "item": "sour cream", "amount": "1/2", "unit": "cup" },
+      { "item": "milk", "amount": "1/2", "unit": "cup" },
+      { "item": "flour", "amount": "1", "unit": "cup" },
+      { "item": "yellow corn meal", "amount": "2/3", "unit": "cup" },
+      { "item": "baking powder", "amount": "1 1/2", "unit": "tsp" },
+      { "item": "salt", "amount": "1/2", "unit": "tsp" },
+      { "item": "baking soda", "amount": "1/4", "unit": "tsp" }
+    ],
+    "instructions": [
+      "Heat oven to 425 degrees",
+      "Combine butter and sugar; beat at medium speed until creamy, scraping bowl as needed",
+      "Add eggs, one at a time. Beat well after each",
+      "Stir in sour cream and milk",
+      "Reduce speed to low and add all remaining ingredients",
+      "Beat until just mixed",
+      "Spoon batter into paper lined muffin cups",
+      "Bake 15-18 minutes"
+    ],
+    "prep_info": {
+      "oven_temperature": "425°F",
+      "bake_time": "15-18 minutes (muffins) or 18-22 minutes (8x8 pan)",
+      "pan_type": "paper lined muffin cups or greased 8x8 pan",
+      "alternative_baking": "Can be baked in greased 8x8 pan, 18-22 minutes"
+    }
+  },
+  {
+    "name": "Dried Beef Dip",
+    "ingredients": [
+      {
+        "item": "cream cheese, softened",
+        "amount": "2",
+        "unit": "8 ounce packages"
+      },
+      { "item": "minced onion", "amount": "2", "unit": "TBLS" },
+      { "item": "mayonnaise", "amount": "1", "unit": "TBLS" },
+      { "item": "dried beef", "amount": "1", "unit": "jar" }
+    ],
+    "instructions": [
+      "Rinse the beef in cold water and blot dry",
+      "Chop beef",
+      "Mix all the ingredients and place in a bowl",
+      "Serve with crackers"
+    ],
+    "prep_info": {
+      "prep_time": "10 minutes",
+      "serving_style": "appetizer/dip",
+      "serve_with": "crackers"
+    }
+  },
+  {
+    "name": "Cream Cheese-Banana-Nut Bread",
+    "ingredients": [
+      { "item": "butter, softened", "amount": "3/4", "unit": "cup" },
+      { "item": "cream cheese", "amount": "1", "unit": "8 ounce package" },
+      { "item": "sugar", "amount": "2", "unit": "cups" },
+      { "item": "large eggs", "amount": "2", "unit": "whole" },
+      { "item": "all-purpose flour", "amount": "3", "unit": "cups" },
+      { "item": "baking powder", "amount": "1/2", "unit": "tsp" },
+      { "item": "baking soda", "amount": "1/2", "unit": "tsp" },
+      { "item": "salt", "amount": "1/2", "unit": "tsp" },
+      {
+        "item": "bananas, mashed (about 1 1/4 lbs or 4 medium)",
+        "amount": "1 1/2",
+        "unit": "cups"
+      },
+      { "item": "pecans, chopped and toasted", "amount": "1", "unit": "cup" },
+      { "item": "vanilla extract", "amount": "1/2", "unit": "tsp" }
+    ],
+    "instructions": [
+      "Beat butter and cream cheese at medium speed with electric mixer, until creamy",
+      "Gradually add sugar, beating until light and fluffy",
+      "Add eggs, 1 at a time, beating just until blended after each addition",
+      "Combine flour and next 3 ingredients; gradually add to butter mixture, beating at low speed just until blended",
+      "Stir in bananas, pecans, and vanilla",
+      "Spoon batter into 2 greased and floured 8 x 4 inch loaf pans",
+      "Bake at 350° for 1 hour, or until tests clean",
+      "Shield with foil the last 15 minutes to prevent browning, if necessary",
+      "Cool bread in pans on wire racks 10 minutes",
+      "Remove from pans, and cool 30 minutes on wire racks before slicing"
+    ],
+    "prep_info": {
+      "oven_temperature": "350°F",
+      "bake_time": "1 hour",
+      "cooling_time": "10 minutes in pans, then 30 minutes on racks",
+      "pan_type": "2 greased and floured 8 x 4 inch loaf pans",
+      "yield": "2 loaves",
+      "note": "Shield with foil the last 15 minutes to prevent browning, if necessary"
+    }
+  },
+  {
+    "name": "Jalapeño Corn Bread",
+    "ingredients": [
+      { "item": "all-purpose flour", "amount": "1", "unit": "cup" },
+      { "item": "yellow cornmeal", "amount": "1", "unit": "cup" },
+      { "item": "sugar", "amount": "2", "unit": "TBLS" },
+      { "item": "baking powder", "amount": "2", "unit": "tsp" },
+      { "item": "salt", "amount": "1/2", "unit": "tsp" },
+      { "item": "low-fat buttermilk", "amount": "1", "unit": "cup" },
+      { "item": "butter, melted", "amount": "2", "unit": "TBLS" },
+      { "item": "egg substitute (or 2 eggs)", "amount": "1/2", "unit": "cup" },
+      { "item": "frozen corn", "amount": "1", "unit": "cup" },
+      { "item": "sliced green onions", "amount": "1/2", "unit": "cup" },
+      { "item": "minced jalapeño peppers", "amount": "2", "unit": "TBLS" },
+      { "item": "garlic, minced", "amount": "1", "unit": "clove" }
+    ],
+    "instructions": [
+      "Preheat oven to 375 degrees",
+      "Combine first five ingredients in a large bowl",
+      "Add buttermilk, butter and egg and stir just until moistened",
+      "Gently fold in corn, green onions, jalapeño and garlic",
+      "Spoon batter into 9-inch square pan coated with cooking spray",
+      "Bake for about 30 minutes or until a toothpick inserted in the center comes out clean",
+      "Cool 5 minutes in the pan before serving"
+    ],
+    "prep_info": {
+      "oven_temperature": "375°F",
+      "bake_time": "30 minutes",
+      "cooling_time": "5 minutes",
+      "pan_type": "9-inch square pan coated with cooking spray"
+    }
+  },
+  {
+    "name": "Olga's Kitchen Bread",
+    "ingredients": [
+      { "item": "milk", "amount": "1", "unit": "cup" },
+      { "item": "honey", "amount": "1/4", "unit": "cup" },
+      { "item": "margarine", "amount": "1/4", "unit": "cup" },
+      { "item": "salt", "amount": "1", "unit": "tsp" },
+      {
+        "item": "active dry yeast (1 package)",
+        "amount": "2 1/4",
+        "unit": "tsp"
+      },
+      { "item": "warm water", "amount": "1/4", "unit": "cup" },
+      { "item": "granulated sugar", "amount": "1", "unit": "tsp" },
+      { "item": "all-purpose flour, divided", "amount": "4", "unit": "cups" },
+      { "item": "egg", "amount": "1", "unit": "whole" }
+    ],
+    "instructions": [
+      "Scald milk, remove to large bowl",
+      "Add honey, margarine and salt to milk; stir until margarine is melted",
+      "Set aside to cool until lukewarm",
+      "Combine yeast, warm water and sugar; stir until sugar is dissolved. Set aside",
+      "Add 1 1/2 cups of the flour to lukewarm milk mixture and beat well",
+      "Mix in egg and yeast mixture",
+      "Add remaining flour, a little at a time, until sticky dough is formed",
+      "Turn out on a floured surface; knead about two minutes",
+      "Dough will be sticky, but don't add more flour",
+      "Place dough in oiled bowl, turning once to oil whole surface of dough",
+      "Cover with plastic wrap and let stand in warm place until doubled in bulk",
+      "Punch down dough; divide into 16 equal pieces",
+      "Roll each piece to a thin rough circle about 8-10 inches in diameter",
+      "Heat a large dry skillet over medium-high heat; do not use any oil",
+      "Bake 15 seconds, flip and bake about 10 seconds on other side, until mottled brown spots appear",
+      "Cool and store in a plastic bag"
+    ],
+    "prep_info": {
+      "rising_time": "until doubled in bulk",
+      "cooking_method": "skillet",
+      "cooking_time": "15 seconds first side, 10 seconds second side",
+      "yield": "16 breads",
+      "storage": "store in plastic bag"
+    }
+  }
+]
